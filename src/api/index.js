@@ -21,15 +21,10 @@ export const API = {
   connectedUserDetails: BACKEND_BASE_URL + "/users", //to get all  users details
   userStatus: BACKEND_BASE_URL + "/lead", // to get a specified user
 
-  //reviews
-  reviewsDetails: BACKEND_BASE_URL + "/reviews", //to get all reviews details
-
   //Blogs
   allBlogs: BACKEND_BASE_URL + "/products", //to get all blog details
   Blog: BACKEND_BASE_URL + "/product", // to delete the blog
   createBlog: BACKEND_BASE_URL + "/createproducts",
 
-  getAdminReviews: BACKEND_BASE_URL + "/areviews", //to get admin all reviews details
-  updateReviewStatus: BACKEND_BASE_URL + "/reviewstatus", // /:id
 };
 

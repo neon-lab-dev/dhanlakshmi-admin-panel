@@ -9,7 +9,6 @@ const RoutesContainer = () => {
   return (
     <Router>
       <Routes>
-        <Route path="admin">
           {ROUTES.map(({ component: Component, path }, index) => {
             return (
               <Route
@@ -26,7 +25,6 @@ const RoutesContainer = () => {
               />
             );
           })}
-        </Route>
       </Routes>
     </Router>
   );

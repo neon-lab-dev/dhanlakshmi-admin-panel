@@ -18,7 +18,7 @@ const CreateProduct = () => {
         icon: "success",
       });
       setSelectedImages(null);
-      navigate("/admin/products");
+      navigate("/products");
       reset();
     },
     onError: (err) => {
@@ -54,7 +54,7 @@ const CreateProduct = () => {
   const inputRef = useRef(null);
 
   const handleBackNavigate = () => {
-    navigate("/admin/products");
+    navigate("/products");
   };
 
   const handleChooseImage = () => {
@@ -252,7 +252,7 @@ const CreateProduct = () => {
                 <div className="my-5">
                   <button
                     type="submit"
-                    className="h-[54px] rounded-xl text-white bg-darkgreen w-full"
+                    className="h-[54px] rounded-xl text-white bg-[#39A803] w-full"
                   >
                     {isPending ? (
                       <>
@@ -346,7 +346,7 @@ const CreateProduct = () => {
                 <span className="text-base font-semibold">{description}</span>
               ) : (
                 <span className="text-red text-base">
-                  Please enter Education!
+                  Please enter description!
                 </span>
               )}
             </div>
@@ -379,7 +379,7 @@ const CreateProduct = () => {
                 <span className="text-base font-semibold">{available_packs}</span>
               ) : (
                 <span className="text-red text-base">
-                  Please enter DiseaseHandle!
+                  Please enter available_packs!
                 </span>
               )}
             </div>

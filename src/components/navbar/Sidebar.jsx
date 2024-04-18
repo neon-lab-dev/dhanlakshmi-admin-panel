@@ -14,19 +14,19 @@ const Sidebar = () => {
   const links = [
     {
       label: "Dashboard",
-      path: "/admin/",
+      path: "/",
     },
     {
       label: "Product",
-      path: "/admin/products",
+      path: "/products",
     },
     {
       label: "User",
-      path: "/admin/users",
+      path: "/users",
     },  
     {
       label: "Seller",
-      path: "/admin/seller",
+      path: "/seller",
     },
   ];
 
@@ -45,7 +45,7 @@ const Sidebar = () => {
             title: "Logout",
             text: "You have been logged out successfully",
           });
-          navigate("/admin");
+          navigate("");
         });
     },
     onError: (err) => {
@@ -75,7 +75,7 @@ const Sidebar = () => {
 
   return (
     <aside className="lg:min-w-[260px] max-w-[260px] md:min-w-[200px] hidden md:block bg-white h-screen">
-      <Link to="/admin/" className="flex justify-center">
+      <Link to="/" className="flex justify-center">
         <img className="my-4 w-[160px]" src={logomedlife} />
       </Link>
       <div className="flex flex-col gap-3 items-center justify-center mt-6 px-5">

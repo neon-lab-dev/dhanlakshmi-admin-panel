@@ -96,7 +96,7 @@ const Products = () => {
           All Products {data?.counts && <>({data?.counts})</>}
         </h1>
         <Link
-          to="/admin/add-users"
+          to="/add-users"
           type="button"
           className="bg-[#39A803] text-[14px] rounded-md text-white w-[192px] h-[50px] flex justify-center items-center gap-3"
         >

@@ -11,7 +11,7 @@ const Error404 = () => {
       <button
         className="text-blue-500 mt-3 text-center"
         onClick={() => {
-          navigate("/admin/");
+          navigate("/");
         }}
       >
         {" "}
