@@ -27,9 +27,9 @@ const UpdateBlogModal = ({ data }) => {
   } = watch();
 
   const diseaseHandleOptions = [
-    "Bio Stimulate",
-    "Pesticides",
-    "Animal insecticide",
+    "Bio Stimulae", 
+    "Pesticides", 
+    "Cattle Feed"
   ];
 
   const { mutate, isPending } = useMutation({

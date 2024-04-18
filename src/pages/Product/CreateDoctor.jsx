@@ -92,9 +92,9 @@ const CreateProduct = () => {
   };
 
   const diseaseHandleOptions = [
-    "Bio Stimulate",
-    "Pesticides",
-    "Animal insecticide",
+    "Bio Stimulae", 
+    "Pesticides", 
+    "Cattle Feed"
   ];
 
   return (
