@@ -59,7 +59,7 @@ const User = () => {
         <div className=" justify-between flex items-center ">
           {/* Searchbar */}
           <Searchbar
-            placeholder="Search by ID, Name, City, Mobile No"
+            placeholder="Search by ID, Name, Address,Contact Number "
             onChange={(e) => {
               setSearchQuery(e.target.value);
               setStartingIndex(0);
