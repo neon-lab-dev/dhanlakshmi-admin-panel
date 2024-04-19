@@ -15,7 +15,7 @@ const RootLayout = ({ children }) => {
   const size = useInnerSize();
   if (size.width < 768 || size.height < 500) {
     return <NotSupported />;
-  }
+  }                                                                                                                   
   if (isAuthenticating) return <AppLoading />;
   if (pathname === "/login") return children;
 

@@ -93,14 +93,14 @@ const Products = () => {
     <div className="bg-lightgray h-full w-full p-6 pb-11">
       <div className="flex justify-between">
         <h1 className=" text-[32px] font-bold   text-black leading-[38.4px] ">
-          All Products {data?.counts && <>({data?.counts})</>}
+          All Products 
         </h1>
         <Link
           to="/add-users"
           type="button"
           className="bg-[#39A803] text-[14px] rounded-md text-white w-[192px] h-[50px] flex justify-center items-center gap-3"
         >
-          <img src={addDoctorSvg} className="h-5" />
+        
           Add Product
         </Link>
       </div>
@@ -185,7 +185,7 @@ const Products = () => {
                           {item.available_packs}
                         </td>
                         <td className="text-[14px] font-semibold text-black">
-                          {item.price}
+                        ₹{item.price}
                         </td>
                         <td className="text-[14px] text-center font-semibold text-black">
                           <div className="flex items-center justify-center gap-3">

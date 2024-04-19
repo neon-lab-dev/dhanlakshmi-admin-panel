@@ -51,7 +51,7 @@ const Login = () => {
   };
 
   if (isAuthenticated && user?.role?.toLowerCase() === "admin") {
-    return <Navigate to="/" />;
+    return <Navigate to="/"/>;
   }
   return (
     <div className="flex justify-center items-center h-screen w-screen p-24 bg-white">
