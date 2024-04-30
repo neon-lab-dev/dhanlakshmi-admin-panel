@@ -98,15 +98,6 @@ const User = () => {
                     City
                   </th>
                   <th className="w-1/6 font-bold font-lato text-black text-[14px]  text-center px-3">
-                    Income
-                  </th>
-                  <th className="w-1/6 font-bold font-lato text-black text-[14px]  text-center px-3">
-                    Crops Harvest
-                  </th>
-                  <th className="w-1/6 font-bold font-lato text-black text-[14px]  text-center px-3">
-                    Land Area
-                  </th>
-                  <th className="w-1/6 font-bold font-lato text-black text-[14px]  text-center px-3">
                     Domestic Animal 
                   </th>
                 </tr>
@@ -133,15 +124,6 @@ const User = () => {
                           </td>
                           <td className="opacity-80  font-lato font-semibold w-1/5 min-w-[150px] text-center text-[14px] px-3">
                             {user.address}
-                          </td>
-                          <td className="opacity-80 font-lato font-semibold w-1/5 min-w-[100px] text-center text-[14px] px-3">
-                            {user.income}
-                          </td>
-                          <td className="opacity-80 font-lato font-semibold w-1/5 min-w-[100px] text-center text-[14px] px-3">
-                            {user.crops_harvest}
-                          </td>
-                          <td className="opacity-80 font-lato font-semibold w-1/5 min-w-[100px] text-center text-[14px] px-3">
-                            {user.land_area}
                           </td>
                           <td className="opacity-80 font-lato font-semibold w-1/5 min-w-[100px] text-center text-[14px] px-3">
                             {user.domestic_animal}
