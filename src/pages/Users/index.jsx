@@ -52,7 +52,7 @@ const User = () => {
   return (
     <div className="bg-[#F5F6FA] min-h-full w-full p-6 pb-11">
       <h1 className="font-lato text-[32px] font-bold text-black leading-[38.4px] ">
-        All Connected Users
+        All Users
       </h1>
 
       <div className="bg-white overflow-x-auto mt-3 rounded-[16px] p-4 px-5">
@@ -95,7 +95,7 @@ const User = () => {
                     Mobile No
                   </th>
                   <th className="font-bold font-lato text-black text-[14px]  text-center px-3">
-                    City
+                    Address/City
                   </th>
                   <th className="w-1/6 font-bold font-lato text-black text-[14px]  text-center px-3">
                     Domestic Animal 
