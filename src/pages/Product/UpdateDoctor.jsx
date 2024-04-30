@@ -27,7 +27,7 @@ const UpdateBlogModal = ({ data }) => {
   } = watch();
 
   const diseaseHandleOptions = [
-    "Bio Stimulae", 
+    "Bio Stimulant", 
     "Pesticides", 
     "Cattle Feed"
   ];

@@ -92,11 +92,10 @@ const CreateProduct = () => {
   };
 
   const diseaseHandleOptions = [
-    "Bio Stimulae", 
+    "Bio Stimulant", 
     "Pesticides", 
     "Cattle Feed"
   ];
-
   return (
     <div>
       <div className="bg-lightgray h-full w-full p-6 py-8">
